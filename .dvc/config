@@ -1,4 +1,7 @@
 [core]
-    remote = s3remote
+    remote = gdrive_remote
 ['remote "s3remote"']
     url = s3://cod-project-data/dvc-storage
+
+['remote "gdrive_remote"']
+    url = gdrive://13Pk2Ym_Sw6H6I9DajYlMtLkv-Ho5U6q2

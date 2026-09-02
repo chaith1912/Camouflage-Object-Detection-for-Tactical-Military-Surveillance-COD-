@@ -13,7 +13,7 @@ dataset:
 
 model:
   architecture: "DGNet-S"
-  context_backbone: "efficientnet-b0" # Options: resnet50, efficientnet-b0
+  context_backbone: "mobilenet_v3_large" # Options: mobilenet_v3_large, mobilenet_v3_small, mobilenet_v2, efficientnet-b0, resnet50
   gradient_kernel: "sobel"            # Options: sobel, scharr, laplacian
   num_classes: 1
   pretrained: true
